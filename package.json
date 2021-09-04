@@ -42,5 +42,7 @@
       "pre-push": "yarn test"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^3.17.2"
+  }
 }

@@ -2,7 +2,7 @@
 
 ### Requirements
 
-- NVM, node 12 and 15
+- NVM, node 12, 14 and 15
 - Docker (daemon must be running)
 - Clone this repository
 
@@ -17,7 +17,7 @@ Run the following commands from the Organism root directory:
 
 ```bash
 $ yarn run update-submodules
-$ nvm use 14
+$ nvm use 15
 $ bash scripts/install.sh [--skip-binaries]
 ``` 
 
