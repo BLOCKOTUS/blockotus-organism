@@ -4,7 +4,7 @@
   "description": "Open and Decentralized Standard made with Hyperledger Fabric and DID W3C.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --runInBand ./__tests__",
     "dev": "node ./scripts/dev.js",
     "devInstall": "bash ./scripts/install.sh",
     "upgrade-organ": "bash ./scripts/upgrade.sh",
